@@ -9,6 +9,10 @@ class Chasseur {
         $this->arme = $arme;
     }
 
+    public function __ToString() {
+        return $this->arme;
+    }
+
     public function avancer() {
         echo $this->nom . " avance avec son " . $this->arme;
     }

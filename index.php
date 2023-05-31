@@ -1,8 +1,8 @@
 <?php
 
 require_once "Humain.php";
-require_once "iAnimal.php";
-require_once "Cadre.php";
+require_once "Animal.php";
+require_once "Interfacee.php";
 require_once "Chasseur.php";
 require_once "Lapin.php";
 
